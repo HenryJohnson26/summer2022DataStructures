@@ -1,0 +1,3 @@
+C:/Users/htj55/CLionProjects/clocktime2/cmake-build-debug/CMakeFiles/clocktime2.dir
+C:/Users/htj55/CLionProjects/clocktime2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/htj55/CLionProjects/clocktime2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
