@@ -1,0 +1,23 @@
+0. What is your name?
+Henry Johnson
+
+1. How many calls to factorial() occur when the initial input is some value x?
+factorial() will call itself x times, and it would also be called one initial time.
+
+2. What is the base case for the babylon() function?
+if (abs(next_guess - guess) < 1.0e-10) return guess;
+
+3. What mathematical function of n and k is computed by what_does_it_do()?
+it takes n to the power of k.
+
+4. What was the error in the permutations() function, and how did you fix it?
+the issue in the permutaions() function is that when it is called in the line 
+set<string> suffixes = permutations(rest);
+it will then keep asking for permutations of the rest of the given string.
+the issue is that the rest of the string never gets added to suffix, so permutation(rest)
+will keep getting called until there is nothing left in the string. this all means that the for loop
+in which suffixes and s[i] are added to answer, never gets called. 
+my solution to this was to add the line
+suffixes.insert(rest);
+just after the line:
+set<string> suffixes = permutations(rest);
