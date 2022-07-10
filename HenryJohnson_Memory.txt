@@ -1,0 +1,24 @@
+0. What is your name?
+Henry Johnson
+
+1. How much memory (in bytes) does an int array of size 5 use?  How many
+bytes, then, does one int take?
+20 bytes, one int takes 4 bytes
+
+2. What address does arr live at (just in this one run - the answer can vary
+from run to run)?  What address does p represent after it was incremented?
+What was the result of subtracting arr from p?
+arr lives at 0xc364dff890
+p points to 0xc364dff890
+and p-arr results in 0
+
+3. What was the approximate maximum amount of memory you could allocate?
+I was finding that anything much above 60000000000 would throw bad_allocate errors, so 60000000000 bytes
+
+4. What error did you get when you tried to allocate more?
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+
+5. What numbers are being stored in each object in the array of foo objects?
+each x value is set to the previous y value, and each y is set to the previous x value plus
+the previous y value, all in sequence. this is creating the finbonacci sequence.
