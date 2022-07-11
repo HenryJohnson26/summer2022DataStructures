@@ -1,0 +1,17 @@
+0. What is your name?
+Henry Johnson
+
+1. List 3 functions in the <algorithm> library (other than sort and 
+   binary_search) that take iterators as parameters.
+all_of, for_each, copy
+
+2. List 1 function in the <algorithm> library (other than sort and
+   binary_search) that requires a random access iterator, rather
+   than a forward or bi-directional iterator.
+push_heap
+
+3. List 3 other headers in the standard library that we have not
+   explored which intrigue you.
+<csetjmp> (setjmp.h)
+<tuple>
+<atomic>
