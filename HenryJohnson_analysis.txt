@@ -1,0 +1,40 @@
+0. What is your name?
+Henry Johnson
+
+1. Based on your examination of the pseudo-code, what do you think the "big-O"
+   complexity of the Fisher-Yates shuffle algorithm is?  Give a brief (2-3
+   sentence) justification of your analysis.
+I believe that this is worst case and best O(n). The reason I think this is because we start at the very end,
+then swap randomly and go through each index once. Another tell is that there is just one for loop.
+
+2. Based on your examination of the pseudo-code, what do you think the "big-O"
+   complexity of the insertion sort algorithm is?  Give a brief (2-3 sentence) 
+   justification of your analysis.
+I think that this is worst cast O(n^2) and best case O(n). I think this is correctbecause i saw a nested loop,
+meaning it could have to check each instance on every other one at worst, but at best it would still have to loop through
+everything.
+
+3. Based on your examination of the pseudo-code, what do you think the "big-O"
+   complexity of the binary search algorithm is?  Give a brief (2-3 sentence) 
+   justification of your analysis.
+I think that binary search is at worst is O(logn) where log has a base of 2. I think this is correct since
+it splits the list in half every time.
+
+4. Based on your experiments with the code, what do you think the "big-O"
+   complexities are of:
+	- Fisher-Yates shuffle?
+my data shows that there is a positive coorelation, although it is not a consistent
+straight line. I wouldn't change my answer from o(n), but it is strange to see such
+inconsistent data, perhaps my computer just ran different tests at different "power"
+	- Insertion sort?
+it makes sense that this would be the highest, since it is o(n^2), but again
+the data is very inconsistent
+	- Binary search?
+although this data is not super consistent, is still believe that it is o(logn)
+but other factors have more power over time taken when size is smaller. and again,
+i think my computer's "power" is incosistent.
+
+   Provide plots of your experimental data to justify your answer.
+not sure how to provied my plot so here is a link to a spreadsheet:
+https://docs.google.com/spreadsheets/d/1D2SyFUX9O6js5xeqPToXBe8kUmYRYhZTuSDxkjfiBg0/edit?usp=sharing 
+
